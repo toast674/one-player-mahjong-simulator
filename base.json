@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type":"object",
+  "properties":{
+    "hai":{
+      "type":"string",
+      "pattern":"^([1-9]+[mMpPsS]|[1-7]+z)+$"
+    },
+    "nodes":{
+      "type":"array",
+      "items":{"$ref":"#/definitions/nodes"}
+    }
+  },
+  "required":["hai", "nodes"],
+  "definitions":{
+    "nodes":{
+      "type":"object",
+      "properties":{
+        "tsumo":{
+          "type":"string",
+          "pattern":"^([1-9][mMpPsS]|[1-7]z)$"
+        },
+        "dahai":{
+          "type":"string",
+          "pattern":"^([1-9][mMpPsS]|[1-7]z)$"
+        },
+        "score":{
+          "type":"integer"
+        },
+        "label":{
+          "type":"array",
+          "items":{"type":"string"}
+        },
+        "nodes":{
+          "type":"array",
+          "items":{"$ref":"#/definitions/nodes"}
+        }
+      }
+    }
+  }
+}

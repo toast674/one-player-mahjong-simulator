@@ -1,0 +1,34 @@
+{
+  "hai":"788m23466p113567s", "dahai": "3s", "nodes":[
+    {
+      "tsumo":"6m", "dahai":"8m", "hai":"678m23466p11567s", "label":["Tempai", "Gukei"], "nodes":[
+        {"tsumo":"6p", "score":1100, "label":["Agari"]},
+        {"tsumo":"1s", "score":1100, "label":["Agari"]}
+      ]
+    },
+    {
+      "tsumo":"8m", "dahai":"7m", "hai":"888m23466p11567s", "label":["Tempai", "Gukei"], "nodes":[
+        {"tsumo":"6p", "score":1100, "label":["Agari"]},
+        {"tsumo":"1s", "score":1500, "label":["Agari"]}
+      ] 
+    },
+    {
+      "tsumo":"9m", "dahai":"8m", "hai":"789m23466p11567s", "label":["Tempai", "Gukei"], "nodes":[
+        {"tsumo":"6p", "score":1100, "label":["Agari"]},
+        {"tsumo":"1s", "score":1100, "label":["Agari"]}
+      ]
+    },
+    {
+      "tsumo":"6p", "dahai":"8m", "hai":"78m234666p11567s", "label":["Tempai", "Ryoukei"], "nodes":[
+        {"tsumo":"6m", "score":1100, "label":["Agari"]},
+        {"tsumo":"9m", "score":1100, "label":["Agari"]}
+      ]
+    },
+    {
+      "tsumo":"1s", "dahai":"8m", "hai":"78m23466p111567s", "label":["Tempai", "Ryoukei"], "nodes":[
+        {"tsumo":"6m", "score":1100, "label":["Agari"]},
+        {"tsumo":"9m", "score":1100, "label":["Agari"]}
+      ]
+    }
+  ]
+}

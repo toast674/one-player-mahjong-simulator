@@ -1,0 +1,20 @@
+{
+  "hai":"239m57p456789s114z", "dahai": "4z", "nodes":[
+    {
+      "tsumo": "1m", "dahai": "9m", "hai":"123m57p456789s11z", "label": ["Tempai"], "nodes": [
+        {"tsumo":"6p", "hai":"123m567p456789s11z","score":1100, "label":["Agari"]}
+      ]
+    },
+    {
+      "tsumo": "4m", "dahai": "9m", "hai":"234m57p456789s11z", "label": ["Tempai"], "nodes": [
+        {"tsumo": "6p", "hai":"234m567p456789s11z", "score": 1100, "label":["Agari"]}
+      ]
+    },
+    {
+      "tsumo": "6p", "dahai": "9m", "hai":"23m567p456789s11z", "label": ["Tempai"], "nodes": [
+        {"tsumo": "1m", "hai":"123m567p456789s11z", "score": 1100, "label":["Agari"]},
+        {"tsumo": "4m", "hai":"234m567p456789s11z", "score": 1100, "label":["Agari"]}
+      ]
+    }
+  ]
+}
