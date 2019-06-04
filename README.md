@@ -46,23 +46,23 @@ Turn    Agari
 ```
 
 ## サンプルファイル
-- [sample1.json](sample1.json) (リャンメン待ち)
-- [sample2.json](sample2.json) (カンチャン待ち)
-- [sample3.json](sample3.json) (ペンチャン待ち)
-- [sample4.json](sample4.json) (タンキ待ち)
-- [sample5.json](sample5.json) (シャボ待ち)
-- [sample6.json](sample6.json) (3面待ち)
-- [sample7.json](sample7.json) (1向聴形)
+- [sample1.json](sample/sample1.json) (リャンメン待ち)
+- [sample2.json](sample/sample2.json) (カンチャン待ち)
+- [sample3.json](sample/sample3.json) (ペンチャン待ち)
+- [sample4.json](sample/sample4.json) (タンキ待ち)
+- [sample5.json](sample/sample5.json) (シャボ待ち)
+- [sample6.json](sample/sample6.json) (3面待ち)
+- [sample7.json](sample/sample7.json) (1向聴形)
 
 ## 何切る問題
 和了確率, 聴牌確率, 良形聴牌確率の具体的な値を計算することで何切る問題を解くことができます。
 
 例えば788m23466p113567sという手牌を考えます。東場・子・1巡目の条件で, 打牌候補7m, 8m, 1s, 3sに対してそれぞれ打牌したときの和了確率, 聴牌確率, 良形聴牌確率を計算します。以下のJSONファイルを作成します。
 
-- [sample8.json](sample8.json) (打7m)
-- [sample9.json](sample9.json) (打8m)
-- [sample10.json](sample10.json) (打1s)
-- [sample11.json](sample11.json) (打3s)
+- [sample8.json](sample/sample8.json) (打7m)
+- [sample9.json](sample/sample9.json) (打8m)
+- [sample10.json](sample/sample10.json) (打1s)
+- [sample11.json](sample/sample11.json) (打3s)
 
 和了確率, 聴牌確率, 良形聴牌確率, 得点期待値のすべてで打8mが優れているのでこれが正解となります。
 
