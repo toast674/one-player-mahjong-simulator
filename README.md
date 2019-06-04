@@ -19,7 +19,7 @@ $ python3 calc.py [JSONファイル]
 ```
 実行例:
 ```
-$ python3 calc.py sample1.json
+$ python3 calc.py sample/sample1.json
 Enter the remaining turns.
 17
 
@@ -67,7 +67,7 @@ Turn    Agari
 和了確率, 聴牌確率, 良形聴牌確率, 得点期待値のすべてで打8mが優れているのでこれが正解となります。
 
 ```
-$ python3 calc.py sample9.json
+$ python3 calc.py sample/sample9.json
 Enter the remaining turns.
 17
 
@@ -114,4 +114,4 @@ Turn    Agari
 
 ## TODO
 - [ ] 再帰計算による打筋自動生成機能
-- [ ] Webアプリ化
+- [ ] Webアプリ化(GUI化)
